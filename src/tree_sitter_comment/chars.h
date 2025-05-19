@@ -13,10 +13,10 @@
 #define CHAR_TAB '\t'
 #define CHAR_VERTICAL_TAB '\v'
 
-bool is_internal_char(int32_t c);
-bool is_newline(int32_t c);
-bool is_space(int32_t c);
-bool is_upper(int32_t c);
-bool is_digit(int32_t c);
+bool tscomment_is_internal_char(int32_t c);
+bool tscomment_is_newline(int32_t c);
+bool tscomment_is_space(int32_t c);
+bool tscomment_is_upper(int32_t c);
+bool tscomment_is_digit(int32_t c);
 
 #endif /* ifndef TREE_SITTER_COMMENT_CHARS_H */
